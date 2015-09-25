@@ -1,0 +1,102 @@
+canvas {
+  display: block;
+  -moz-opacity:0.2;
+  /* For older FF versions */
+  -khtml-opacity:0.2;
+  opacity:0.2;
+  filter:alpha(opacity=20);
+  height: auto;
+  width: auto;
+  position: absolute;
+  z-index: -1;
+}
+
+
+#rebelScore {
+  /*border: 10px dashed green;*/
+  color: silver;
+  text-align: center;
+}
+
+#inputBoxInfo {
+  font-size: 18px;
+  font-weight: 300;
+  color: silver;
+}
+
+#empireScore {
+  /*border: 10px dashed yellow;*/
+  color:silver;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+#enterNameForm {
+  /*border: 10px dashed blue;*/
+}
+
+.form-group {
+  /*border: 10px dashed red;*/
+}
+
+#hiddenPrompt {
+  visibility: hidden;
+}
+
+#nameEnterButton{
+  margin-top: 25px;
+}
+
+#endGameButton {
+  margin-left: 73%;
+  height: 100px;
+  margin-top: -30px;
+  font-size: 2.5em;
+
+}
+
+#enterNameInput {
+  /*border: 10px dashed orange;*/
+}
+
+body {
+  background:#000 url(http://78waves.com/bg.jpg);
+}
+
+h1 {
+  text-align: center;
+  color: silver;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 3.5em;
+}
+table {
+  border: 10px solid black;
+  border-collapse: collapse;
+  width: 50%;
+  height: 450px;
+  margin-top: 10%;
+  background-color: white;
+  opacity: 0.5;
+  position: relative;
+  z-index: 1;
+  margin: auto;
+}
+
+td {
+  border: 1px solid black;
+  text-align: center;
+  height: 150px;
+  width:150px;
+  color: white;
+}
+
+img {
+  height: 140px;
+  width: 140px;
+  opacity: 1;
+  filter:alpha(opacity=100);
+}

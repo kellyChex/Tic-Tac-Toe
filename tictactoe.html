@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="ticTacToe.css" rel="stylesheet" type="text/css">
+  <script src="jquery-2.1.4.js"></script>
+  <script src="ticTacToe.js"></script>
+  <script src="ticTacToe2.js"></script>
+  <title>Tic Tac Toe</title>
+</head>
+<body>
+  <canvas></canvas>
+  <div class= "container">
+    <h1>Tic Tac Toe </h1>
+
+    <div id="topRow" class="row">
+      <div id="rebelScore" class ="col-md-3">
+        <h2>Rebel Alliance Player: <span id="rebelName"></span></h2>
+        <div id="rebelTally"></div>
+      </div>
+
+      <div class="col-md-5">
+        <form id='enterNameForm' >
+          <label id="inputBoxInfo" for="enterNameInput">Rebel Alliance Fighter, enter your name:</label>
+          <div class="form-group">
+
+            <input id="enterNameInput" type="text" class="form-control">
+          </div>
+        </div>
+      </form>
+      <div class="col-md-1">
+        <button id="nameEnterButton" type="button" class="btn btn-info pull-right">Submit</button>
+      </div>
+
+      <div id="empireScore" class= "col-md-3" >
+        <h2>Galactic Empire Player: <span id="empireName"></span></h2>
+        <div id="minionTally"></div>
+      </div>
+    </div> <!--row-->
+
+    <table class="grid">
+      <tr>
+        <td id="box1">1</td>
+        <td id="box2">2</td>
+        <td id="box3">4</td>
+      </tr>
+      <tr>
+        <td id="box4">8</td>
+        <td id="box5">16</td>
+        <td id="box6">32</td>
+      </tr>
+      <tr>
+        <td id="box7">64</td>
+        <td id="box8">128</td>
+        <td id="box9">256</td>
+      </tr>
+    </table>
+    <div id="hiddenPrompt">
+      <h1>Do you want to play again?</h1>
+      <div class="row">
+        <div class="col-md-5">
+          <button id="endGameButton" type="button" class="btn btn-success btn-block">Again</button>
+        </div>
+      </div> <!--End Game Row -->
+    </div> <!--hiddenPrompt -->
+  </div> <!--container-->
+</body>
+</html>

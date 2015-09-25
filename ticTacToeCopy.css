@@ -1,0 +1,116 @@
+canvas {
+  display: block;
+   -moz-opacity:0.2;
+   /* For older FF versions */
+   -khtml-opacity:0.2;
+   opacity:0.2;
+   filter:alpha(opacity=20);
+   height: auto;
+   width: auto;
+   position: absolute;
+   z-index: -1;
+}
+
+#rebelScore {
+width: 200px;
+height: 200px;
+border: 5px solid yellow;
+border-radius: 50%;
+/*margin-bottom: -270px;*/
+text-align: center;
+padding-top: 20px;
+/*z-index: 2*/
+/*position:relative;*/
+/*margin-right: 10px;*/
+border: 1px solid red;
+}
+
+#empireScore {
+  width: 200px;
+  height: 200px;
+  border: 5px solid yellow;
+  border-radius: 50%;
+  /*margin-bottom: -100px;*/
+  text-align: center;
+  /*padding-top: 20px;*/
+  /*float: right;*/
+  /*margin-right: 10px;*/
+  border: 1px solid orange;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+#enterNameForm {
+  width:30%;
+  height: 30%;
+  color: white;
+  font-size: 16px;
+  border: 1px solid yellow;
+  /*margin-left: 200px;*/
+}
+
+.form-group {
+  width: 100%;
+  /*margin-left: 12px;*/
+  /*diplay: inline-block;*/
+  /*float: left;*/
+  text-align: center;
+  word-wrap: break-word;
+  border: 1px solid green;
+}
+
+button {
+  display: inline-block;
+  /*float: right;*/
+  color: black;
+  margin-top: 10px;
+  margin-left: 300px;
+}
+
+#enterNameInput {
+  /*display: inline-block;*/
+  /*float: left;*/
+  width: 72%
+  border: 10px dashed purple;
+}
+
+body {
+ background:#000 url(http://78waves.com/bg.jpg);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 3.5em;
+}
+table {
+  border: 10px solid black;
+  border-collapse: collapse;
+  width: 50%;
+  height: 450px;
+  margin-top: 10%;
+  background-color: white;
+  opacity: 0.5;
+  position: relative;
+  z-index: 1;
+  margin: auto;
+}
+
+td {
+  border: 1px solid black;
+  text-align: center;
+  height: 150px;
+  width:150px;
+  color: white;
+}
+
+img {
+  height: 140px;
+  width: 140px;
+  opacity: 1;
+  filter:alpha(opacity=100);
+}
